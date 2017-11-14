@@ -51,8 +51,6 @@ var school = {
         var theStudents = this.classes[classNum].students; //fill out dot notation
         var total = 0;
         for(var i = 0; i < theStudents.length; i++) {
-         
-            
             // we need to get the grade of each student. what Item do we use here?
             total += theStudents[i].grade;
         }
